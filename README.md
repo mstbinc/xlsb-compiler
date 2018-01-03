@@ -15,8 +15,8 @@ This project depends on [Office Primary Interop Assemblies](https://msdn.microso
 ### Running
 
 1. Place all `.vba` source files into `./src/` relative to the program executable.
-2. Run the `BinaryConvert.exe`.
-3. a `PERSONAL.xlsb` file will be generated.
+2. Run `BinaryCompile.exe`.
+3. a `PERSONAL.xlsb` file will be generated in the same directory.
 
 The newly created file can be copied to `%appdata%\Microsoft\Excel\XLSTART` to run on Excel startup.
 VBA modules are named after their file name.
